@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace fapc_core
+namespace csharp_core
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class Jira : Attribute

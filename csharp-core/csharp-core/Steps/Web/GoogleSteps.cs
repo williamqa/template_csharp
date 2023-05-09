@@ -1,7 +1,7 @@
-﻿using fapc_core.Controller.Web;
+﻿using csharp_core.Controller.Web;
 using TechTalk.SpecFlow;
 
-namespace fapc_core.Steps.Web
+namespace csharp_core.Steps.Web
 {
     [Binding]
     public class GoogleSteps : TestBase

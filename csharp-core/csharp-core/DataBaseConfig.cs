@@ -1,4 +1,4 @@
-﻿namespace fapc_core
+﻿namespace csharp_core
 {
     public class DataBaseConfig
     {

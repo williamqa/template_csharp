@@ -1,8 +1,8 @@
-﻿using fapc_core.Controller.Web;
+﻿using csharp_core.Controller.Web;
 using System;
 using TechTalk.SpecFlow;
 
-namespace fapc_core.Steps.Web
+namespace csharp_core.Steps.Web
 {
     [Binding]
     public class LoginSiagSteps : TestBase

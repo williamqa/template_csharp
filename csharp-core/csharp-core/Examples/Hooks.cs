@@ -23,7 +23,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 
-namespace fapc_core.Examples
+namespace csharp_core.Examples
 {
     public class Hooks
     {

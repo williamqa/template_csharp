@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
-namespace fapc_core
+namespace csharp_core
 {
     public static class Utils
     {

@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace fapc_core.Features.Mobile
+namespace csharp_core.Features.Mobile
 {
     using TechTalk.SpecFlow;
     
@@ -61,7 +61,7 @@ namespace fapc_core.Features.Mobile
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "GooglePlay")))
             {
-                global::fapc_core.Features.Mobile.GooglePlayFeature.FeatureSetup(null);
+                global::csharp_core.Features.Mobile.GooglePlayFeature.FeatureSetup(null);
             }
         }
         

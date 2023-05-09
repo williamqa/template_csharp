@@ -4,7 +4,7 @@ using RestSharp;
 using System;
 using System.IO;
 
-namespace fapc_core.Examples.Features.Service
+namespace csharp_core.Examples.Features.Service
 {
     [TestClass]
     public class RestTestFeature : Hooks

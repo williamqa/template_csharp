@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace fapc_core.Features.Web.BomJesusEditora
+namespace csharp_core.Features.Web.BomJesusEditora
 {
     using TechTalk.SpecFlow;
     
@@ -61,7 +61,7 @@ namespace fapc_core.Features.Web.BomJesusEditora
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "CrLojaVirtual")))
             {
-                global::fapc_core.Features.Web.BomJesusEditora.CrLojaVirtualFeature.FeatureSetup(null);
+                global::csharp_core.Features.Web.BomJesusEditora.CrLojaVirtualFeature.FeatureSetup(null);
             }
         }
         

@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 
-namespace fapc_core.PageObjects.Desktop
+namespace csharp_core.PageObjects.Desktop
 {
     public class NotepadPage
     {

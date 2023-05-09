@@ -1,7 +1,7 @@
-﻿using fapc_core.PageObjects.Web.PontoMais;
+﻿using csharp_core.PageObjects.Web.PontoMais;
 using OpenQA.Selenium.Interactions;
 
-namespace fapc_core.Steps.Web.PontoMais
+namespace csharp_core.Steps.Web.PontoMais
 {
     public class MeuPontoSteps : TestBase
     {

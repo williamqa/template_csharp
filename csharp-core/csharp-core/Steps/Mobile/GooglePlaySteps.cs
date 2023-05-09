@@ -1,7 +1,7 @@
-﻿using fapc_core.Controller.Mobile;
+﻿using csharp_core.Controller.Mobile;
 using TechTalk.SpecFlow;
 
-namespace fapc_core.Steps.Mobile
+namespace csharp_core.Steps.Mobile
 {
     [Binding]
     public class GooglePlaySteps : TestBase

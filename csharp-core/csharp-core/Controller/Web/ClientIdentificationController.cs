@@ -1,9 +1,9 @@
-﻿using fapc_core.PageObjects.Web;
+﻿using csharp_core.PageObjects.Web;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace fapc_core.Controller.Web
+namespace csharp_core.Controller.Web
 {
     public class ClientIdentificationController : TestBase
     {

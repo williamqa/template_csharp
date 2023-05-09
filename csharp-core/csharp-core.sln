@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fapc-core", "fapc-core\fapc-core.csproj", "{88FB20FE-3DEA-4BCA-BB1A-EB69ADBDBBF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp-core", "csharp-core\csharp-core.csproj", "{88FB20FE-3DEA-4BCA-BB1A-EB69ADBDBBF8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD055C48-06D7-437C-BF18-F8DA44D46EA2}"
 	ProjectSection(SolutionItems) = preProject

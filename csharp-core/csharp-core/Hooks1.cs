@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TechTalk.SpecFlow;
 
-namespace fapc_core
+namespace csharp_core
 {
     [Binding]
     [DeploymentItem(@"Data")]

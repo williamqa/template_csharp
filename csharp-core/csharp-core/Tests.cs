@@ -1,14 +1,14 @@
-using fapc_core.Controller.Mobile;
+using csharp_core.Controller.Mobile;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using fapc_core.Controller.Web;
-using fapc_core.Controller.Desktop;
+using csharp_core.Controller.Web;
+using csharp_core.Controller.Desktop;
 using RestSharp;
 using System.IO;
 using System;
-using fapc_core.Steps.Web.PontoMais;
+using csharp_core.Steps.Web.PontoMais;
 using Newtonsoft.Json.Linq;
 
-namespace fapc_core
+namespace csharp_core
 {
     [TestClass]
     [Jira("ID", "URL", "USER", "TOKEN")]

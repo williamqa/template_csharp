@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 
-namespace fapc_core.PageObjects.Web.PontoMais
+namespace csharp_core.PageObjects.Web.PontoMais
 {
     public class LoginPage
     {

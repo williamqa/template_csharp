@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace fapc_core.Features.Web
+namespace csharp_core.Features.Web
 {
     using TechTalk.SpecFlow;
     
@@ -61,7 +61,7 @@ namespace fapc_core.Features.Web
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "Google")))
             {
-                global::fapc_core.Features.Web.GoogleFeature.FeatureSetup(null);
+                global::csharp_core.Features.Web.GoogleFeature.FeatureSetup(null);
             }
         }
         

@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 
-namespace fapc_core.PageObjects.Mobile
+namespace csharp_core.PageObjects.Mobile
 {
     public class CalcPage
     {

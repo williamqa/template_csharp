@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace fapc_core.PageObjects.Web
+namespace csharp_core.PageObjects.Web
 {
     public class StartPage
     {

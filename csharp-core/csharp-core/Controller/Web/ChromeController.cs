@@ -1,7 +1,7 @@
-﻿using fapc_core.PageObjects.Web;
+﻿using csharp_core.PageObjects.Web;
 using OpenQA.Selenium;
 
-namespace fapc_core.Controller.Web
+namespace csharp_core.Controller.Web
 {
     public class ChromeController : TestBase
     {

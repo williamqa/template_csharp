@@ -1,6 +1,6 @@
-﻿using fapc_core.PageObjects.Mobile;
+﻿using csharp_core.PageObjects.Mobile;
 
-namespace fapc_core.Controller.Mobile
+namespace csharp_core.Controller.Mobile
 {
     public class GooglePlayController : TestBase
     {

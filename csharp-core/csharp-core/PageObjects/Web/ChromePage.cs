@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
 
-namespace fapc_core.PageObjects.Web
+namespace csharp_core.PageObjects.Web
 {
     public class ChromePage
     {

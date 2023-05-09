@@ -1,8 +1,8 @@
-﻿using fapc_core.PageObjects.Desktop;
+﻿using csharp_core.PageObjects.Desktop;
 using System.Diagnostics;
 using System.Threading;
 
-namespace fapc_core.Controller.Desktop
+namespace csharp_core.Controller.Desktop
 {
     public class NotepadController : TestBase
     {

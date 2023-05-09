@@ -23,7 +23,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 
-namespace fapc_core
+namespace csharp_core
 {
     public class TestBase
     {

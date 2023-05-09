@@ -1,6 +1,6 @@
-﻿using fapc_core.PageObjects.Web.PontoMais;
+﻿using csharp_core.PageObjects.Web.PontoMais;
 
-namespace fapc_core.Steps.Web.PontoMais
+namespace csharp_core.Steps.Web.PontoMais
 {
     public class RegistroDePontoSteps : TestBase
     {

@@ -6,7 +6,7 @@ using OpenQA.Selenium.Appium.MultiTouch;
 using System.Collections.Generic;
 using System.Threading;
 
-namespace fapc_core.Examples
+namespace csharp_core.Examples
 {
     public static class Utils
     {

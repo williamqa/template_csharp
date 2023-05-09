@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>fapc_core</RootNamespace>
+    <RootNamespace>csharp_core</RootNamespace>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
