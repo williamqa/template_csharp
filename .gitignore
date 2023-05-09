@@ -1,0 +1,11 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/fapc-core/.vs/fapc-core/v16
+/fapc-core/fapc-core/bin/Debug/netcoreapp2.1
+/fapc-core/fapc-core/obj
+/.vs
+/fapc-core/.vs
+/fapc-core/fapc-core/bin/Debug/netcoreapp3.0
+/fapc-core/fapc-core/bin/Debug/netcoreapp3.1

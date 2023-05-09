@@ -1,0 +1,6 @@
+{
+  "platformName": "Windows",
+  "deviceName": "WindowsPC",
+  "newCommandTimeout": 0,
+  "app": "C:\\Windows\\System32\\notepad.exe"
+}

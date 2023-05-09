@@ -1,0 +1,118 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>fapc_core</RootNamespace>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\OracleQuery.sql" />
+    <None Remove="Data\PontoMaisData.json" />
+    <None Remove="Data\Query.sql" />
+    <None Remove="Data\SqlQuery.sql" />
+    <None Remove="Data\SqlQuery.txt" />
+    <None Remove="Deploy\AndroidConfig.json" />
+    <None Remove="Deploy\DesktopConfig.json" />
+    <None Remove="Deploy\IosConfig.json" />
+    <None Remove="Deploy\OracleConfig.json" />
+    <None Remove="Deploy\SqlConfig.json" />
+    <None Remove="Deploy\WebConfig.json" />
+    <None Remove="Deploy\WebConfigPontoMais.json" />
+    <None Remove="Deploy\Windows\chromedriver.exe" />
+    <None Remove="Examples\Deploy\RestConfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Gravity.Drivers.Appium" Version="2019.9.4.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.3.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.0.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.0.0" />
+    <PackageReference Include="Node.js" Version="5.3.0" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.31" />
+    <PackageReference Include="RestSharp" Version="106.6.10" />
+    <PackageReference Include="SpecFlow" Version="3.0.225" />
+    <PackageReference Include="SpecFlow.MsTest" Version="3.0.225" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.225" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.7.0" />
+    <PackageReference Include="TestLinkApi.NetCore" Version="1.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controller\Service\" />
+    <Folder Include="Deploy\Linux\" />
+    <Folder Include="Deploy\Mac\" />
+    <Folder Include="Examples\Data\" />
+    <Folder Include="Examples\Features\Desktop\" />
+    <Folder Include="Examples\Features\Mobile\" />
+    <Folder Include="Examples\Features\Web\" />
+    <Folder Include="Examples\PageObjects\" />
+    <Folder Include="Examples\Steps\" />
+    <Folder Include="Features\Desktop\" />
+    <Folder Include="Features\Service\" />
+    <Folder Include="PageObjects\Service\" />
+    <Folder Include="Steps\Desktop\" />
+    <Folder Include="Steps\Service\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\OracleQuery.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\PontoMaisData.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\SqlQuery.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Deploy\AndroidConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Deploy\DesktopConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Deploy\IosConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Deploy\OracleConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Deploy\SqlConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Deploy\WebConfigPontoMais.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Deploy\WebConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Deploy\Windows\chromedriver.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Examples\Deploy\RestConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Features\Mobile\GooglePlay.feature.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>GooglePlay.feature</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowFeatureFiles Update="Features\Mobile\GooglePlay.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GooglePlay.feature.cs</LastGenOutput>
+    </SpecFlowFeatureFiles>
+  </ItemGroup>
+
+  <ItemGroup>
+    <SpecFlowObsoleteCodeBehindFiles Update="Features\Mobile\Ios.feature.cs">
+      <DependentUpon>Ios.feature</DependentUpon>
+    </SpecFlowObsoleteCodeBehindFiles>
+  </ItemGroup>
+</Project>

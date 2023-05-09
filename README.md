@@ -1,2 +1,5 @@
-# template_csharp
-Template of  test automation using C#
+# fapc-core
+
+Test Automation Framework
+Cross Technology
+Cross Platform

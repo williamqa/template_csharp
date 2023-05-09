@@ -1,0 +1,7 @@
+﻿{
+    "platformName": "iOS",
+    "bundleId": "com.apple.mobilecal",
+    "udid": "AADF6DCA-BF5B-4AFA-B799-514663A91E75",
+    "deviceName": "iPhone 6",
+    "automationName": "XCUITest"
+}

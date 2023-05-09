@@ -1,0 +1,5 @@
+{
+  "DataSource": "(DESCRIPTION = (ADDRESS = (PROTOCOL = TCP) (HOST = HOST) (PORT = PORT)) (CONNECT_DATA = (SERVICE_NAME = SIMDB)))",
+  "UserId": "USER",
+  "Password": "PSWD"
+}
